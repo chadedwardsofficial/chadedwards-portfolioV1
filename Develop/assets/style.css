@@ -1,0 +1,45 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h1 {
+  font-family:
+}
+.navbar {
+  display: flex;
+  padding: 2px;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.about {
+  max-width: 400px;
+  text-align: center;
+}
+
+.containerwork {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+  .card {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 10px 2px rgb(189, 114, 189);
+  }
