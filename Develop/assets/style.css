@@ -9,6 +9,7 @@ body {
 a {
   text-decoration: none;
 }
+
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -20,8 +21,8 @@ a {
 }
 
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   padding: 2px;
 }
 
@@ -38,7 +39,57 @@ a {
     border-top: 1px solid #000;
   }
 
-
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    
+  }
+  .headshot {
+    display: flex;
+    flex: 0 1 400px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+  }
+  .photoofme {
+    flex: 0 1 275px;
+    background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/image0\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 275px;
+    height: 80%;
+    /* margin-bottom: 50px; */
+    margin-left: 40px;
+    border-radius: 35px;
+  }
+  .txtunderphoto {
+    flex: 1;
+    width: 400px;
+    text-align: center;
+    /* border: 1px solid rgb(0, 0, 0); */
+    align-self: flex-start;
+    margin-right: 22%;
+    margin-top: 90px;
+    font-family: lofi;
+    font-size: 23px;
+    }
+  
+   .about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: lofi;
+      text-align: center;
+      font-size: 20px;
+      /* border: 1px solid black; */
+      height: 400px;
+      margin-right: 45%
+      
+    }
 .container {
     display: flex;
     flex-wrap: nowrap;
@@ -54,46 +105,13 @@ a {
   height: 400px;
   border: 1px solid black;
 }
-.photoofme {
-  background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/image0\ \(2\).jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 275px;
-  height: 275px;
-  /* margin-bottom: 50px; */
-  margin-left: 40px;
-  border-radius: 35px;
-  margin-top: 40px;
 
-}
-.txtunderphoto {
-  width: 400px;
-  text-align: center;
-  /* border: 1px solid rgb(0, 0, 0); */
-  align-self: flex-start;
-  margin-right: 22%;
-  margin-top: 90px;
+
+.text {
   font-family: lofi;
-  font-size: 23px;
-  }
-
-  .aboutme {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    
-  }
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 20px;
-  /* border: 1px solid black; */
-  height: 400px;
-  margin-right: 45%;
 }
+
+
 
 .containerwork {
   display:flex;
@@ -107,9 +125,11 @@ a {
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(0, 0, 0);
-    width: 500px;
+    width: 650px;
     height: 300px;
-    margin: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
     border-radius: 10px;
     box-shadow: 5px 6px 15px 1px grey;
     background-color:  rgb(245, 241, 241);
@@ -174,7 +194,10 @@ a {
     background-size: cover;
     background-position: center center;
   }
-  
+  .footer {
+    /* border: 1px solid black; */
+    margin-top: 160px;
+  }
   .contactinfo {
     display: flex;
     justify-content: space-evenly;
@@ -187,9 +210,7 @@ a {
     margin-right: 50px;
     font-family: lofi;
   }
-  .footer {
-    margin-top: 160px;
-  }
+ 
 
 
   h2:before, h2:after {
@@ -250,6 +271,10 @@ a {
  
   @media screen and (max-width: 1440px) {
       
+      .about {
+        margin-right: 2%;
+      }
+
     .containerwork{
       display: flex;
 
@@ -283,17 +308,44 @@ a {
   
   
   @media screen and (max-width:1440px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      margin-left: 85px;
+    }
+
+
+    .aboutme {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+       }
+       .headshot {
+        display: flex;
+        flex-direction: column;
+       }
+       .photoofme {
+        flex: 1 1 400px;
+        width: 350px;
+        margin-top: 15px;
+        margin-right: 20px;
+       }
+
+       .containerwork {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
     .card {
       display: flex;
       flex-wrap: wrap;
       margin: 20px;
+      width: 995px;
+
     }
+
+
   }
-    .aboutme {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-
-    }
+  
