@@ -3,6 +3,9 @@
   src: url(/chadedwards-portfolioV1/Develop/assets/Fonts/JuliusSansOne-Regular.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgb(252, 246, 246);
 }
