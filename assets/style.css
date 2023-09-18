@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: lofi;
-  src: url(/chadedwards-portfolioV1/Develop/assets/Fonts/JuliusSansOne-Regular.ttf);
+  src: url(/assets/Fonts/JuliusSansOne-Regular.ttf);
 }
 
 html {
@@ -26,6 +26,7 @@ a {
   justify-content: space-evenly;
   font-family: lofi;
   font-size: 30px;
+  color: black;
   
 }
 .lineblock {
@@ -37,16 +38,19 @@ a {
 
 .navbar {
   padding: 2px;
+
 }
 
 .navbar li {
   font-size: 20px;
   display: inline-block;
   margin-right: 50px;
+ 
 }
 
 
 /* About Me Section with Headshot & Text */
+
 .aboutme {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +67,7 @@ a {
   }
   .photoofme {
     flex: 0 1 275px;
-    background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/image0\ \(2\).jpeg);
+    background-image: url(/assets/photos/image0\ \(2\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -136,7 +140,7 @@ a {
   font-family: lofi;
   font-weight: bold;
   font-size: 24px;
-  background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/winter1.jpg);
+  background-image: url(/assets/photos/winter1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -173,26 +177,26 @@ a {
   /* ID Selectors for Card with Background Images */
 
   #card1 {
-    background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/plant1.jpg);
+    background-image: url(/assets/photos/plant1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
   #card2 {
-    background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/coffee1.jpg);
+    background-image: url(/assets/photos/coffee1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   #card3 {
-    background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/beach1.jpg);
+    background-image: url(/assets/photos/beach1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   #card4 {
-    background-image: url(/chadedwards-portfolioV1/Develop/assets/photos/city1.jpg);
+    background-image: url(/assets/photos/city1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
