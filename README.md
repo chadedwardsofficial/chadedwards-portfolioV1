@@ -12,7 +12,7 @@ https://chadedwardsofficial.github.io/chadedwards-portfolioV1/
 
 
 ## Screenshot of Website :
-![Screenshot of Website](image.png)
+![Screenshot of website](image-1.png)
 
 
 
