@@ -8,7 +8,7 @@ At the bottom of the page you will find my contact info with deployable links to
 
 
 ## Link to Website :
-
+https://chadedwardsofficial.github.io/chadedwards-portfolioV1/
 
 
 ## Screenshot of Website :
