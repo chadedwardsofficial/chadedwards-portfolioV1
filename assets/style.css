@@ -265,7 +265,7 @@ a {
     opacity: .9;;
   }
 
-  /* This code makes the blocked line in-between the Name and Navbar */
+  /* This code makes the blocked line for the Projects Header*/
 
   .container::before,
   .container::after {
