@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: lofi;
-  src: url(/assets/Fonts/JuliusSansOne-Regular.ttf);
+  src: url(Fonts/JuliusSansOne-Regular.ttf);
 }
 
 html {
@@ -45,7 +45,7 @@ a {
 .navbar li {
   font-size: 20px;
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 20px;
  
 }
 
@@ -68,7 +68,7 @@ a {
   }
   .photoofme {
     flex: 0 1 275px;
-    background-image: url(/assets/photos/image0\ \(2\).jpeg);
+    background-image: url(photos/image0\ \(2\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -141,7 +141,7 @@ a {
   font-family: lofi;
   font-weight: bold;
   font-size: 24px;
-  background-image: url(/assets/photos/winter1.jpg);
+  background-image: url(photos/winter1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -178,26 +178,26 @@ a {
   /* ID Selectors for Card with Background Images */
 
   #card1 {
-    background-image: url(/assets/photos/plant1.jpg);
+    background-image: url(photos/plant1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
   #card2 {
-    background-image: url(/assets/photos/coffee1.jpg);
+    background-image: url(photos/coffee1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   #card3 {
-    background-image: url(/assets/photos/beach1.jpg);
+    background-image: url(photos/beach1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   #card4 {
-    background-image: url(/assets/photos/city1.jpg);
+    background-image: url(photos/city1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
